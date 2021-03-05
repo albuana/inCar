@@ -1,0 +1,129 @@
+body {
+    font-family: 'Lucida Grande';
+    color: black;
+}
+
+button:focus {
+	outline:0;
+	cursor: pointer;
+}
+
+#app {
+    display: grid;
+    grid-template-areas: 'nav header'
+                         'nav main'
+								 'nav footer';
+    grid-template-rows: 111px 478px auto;
+    grid-template-columns: 150px auto;
+    width: 1120px;
+    height: 790px;
+    margin: 8px auto;
+}
+
+/* nav */
+
+nav {
+    grid-area: nav;
+    background-color: rgb(216,216,216);
+}
+
+nav > button {
+   display: inline-block;
+   padding: 0px;
+   margin: 15px;
+	background-color: rgb(200,200,200);
+	border: none;
+ 	font-size: 32px;
+ 	font-family: 'Lucida Grande';
+}
+
+.quick-icons img {
+	padding: 10px 20px;
+   display: block;
+   width: 85px;
+   background-color: rgb(216,216,216);
+}
+
+#horas {
+    font-size: 230%;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 30px 0px 20px 5px;
+}
+
+/* header */
+
+header {
+    grid-area: header;
+    background-color: rgb(200,200,200);
+    font-size: 120%;
+}
+
+header > button {
+	padding: 0px;
+	margin: 15px;
+  background-color: rgb(200,200,200);
+  border: none;
+}
+
+/* main */
+
+main {
+    grid-area: main;
+    background-color: rgb(200,200,200);
+    font-size: 200%;
+	 font-weight: bold;
+	 padding: 20px;
+}
+
+main > h1{
+	font-size: 45px;
+	text-align: center;
+  margin: 70px;
+}
+
+main .radioAtual {
+	display: flex;
+   align-items: center;
+   justify-content: center;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* footer */
+
+footer {
+	grid-area: footer;
+	background-color: rgb(200,200,200);
+	text-align: center;
+}
+
+.buttons button {
+	background-color: rgb(200,200,200);
+	border: none;
+ 	padding: 10px 10px;
+	padding: 20px;
+}
+
+#forwardBackward{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#forward {
+  margin-left: auto;
+	margin-right: 180px;
+}
+
+#onOf {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#backward {
+	margin-left: 177px;
+	margin-right: auto;
+}

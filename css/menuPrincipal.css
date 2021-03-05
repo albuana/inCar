@@ -1,0 +1,70 @@
+#main-screen {
+    display: grid;
+    grid-template-areas: 'nav main';
+    grid-template-rows: 910px auto;
+    grid-template-columns: 150px auto;
+	width: 1120px;
+	margin: 8px auto;
+}
+
+button:focus {
+	outline:0;
+	cursor: pointer;
+}
+
+/*nav*/
+nav {
+    background-color: rgb(216,216,216);
+	margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quick-icons img {
+    padding: 10px 20px;
+    display: block;
+    width: 85px;
+    background-color: rgb(216,216,216);
+
+}
+
+#horas {
+    font-size: 230%;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 30px 0px 20px 0px;
+}
+
+/*main*/
+main {
+    background-color: rgb(200,200,200);
+    height: 790px;
+}
+
+main p {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+button {
+    display: inline-block;
+    padding: 0px;
+    margin: 15px;
+	border: none;
+}
+
+.icons img {
+    width: 156px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icons {
+    width: 190px;
+    height: 270px;
+    background-color: rgb(200,200,200);
+    margin-left: 30px;
+    margin-top: 80px;
+    border: none;
+}

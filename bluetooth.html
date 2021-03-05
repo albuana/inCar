@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <title>DEFINICÕES</title>
+    <link rel="stylesheet" type="text/css" href="css/chamadas.css">
+    <link rel="stylesheet" type="text/css" href="css/definicoes.css">
+</head>
+<body>
+
+<div id="app">
+
+	<nav>
+		<button id="musica" class = "quick-icons"><img src="icons/music.png"></button><br>
+		<button id="mapa" class = "quick-icons"><img src="icons/maps.png"></button><br>
+		<button id="chamada" class = "quick-icons"><img src="icons/phone.png"></button><br>
+		<div id="horas">00:00</div>
+		<button id="rede" class = "quick-icons"><img src="icons/rede.png"></button><br>
+		<button id="casa" class = "quick-icons"><img src="icons/home.png"></button><br>
+	</nav>
+
+    <header>
+        <ul>
+            <li><a class="active" href="#"><img class="icon" src="icons/bluetooth.png"><br>Emparelhar</a></li>
+            <li><a href="#"><img class="icon" src="icons/notification.png"><br>Notificações</a></li>
+            <li><a href="#"><img class="icon" src="icons/speaker.png"><br>Som</a></li>
+            <li><a href="#"><img class="icon" src="icons/brightness.png"><br>Visor e luz</a></li>
+            <li><a href="#"><img class="icon" src="icons/reset.png"><br>Repor</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <ul id="clickable">
+          <li><img class="iconInList" src="icons/smartphone.png">
+            <a><button type="button" onclick="myFunction()">Telefone do João</button></a>
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+            <img class="iconInListFim" src="icons/3p.png">
+          </li>
+          <li><img class="iconInList" src="icons/ipad.png">
+            <a><button type="button">Ipad do João</button></a>
+            <label class="switch">
+              <input type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+            <img class="iconInListFim" src="icons/3p.png"></li>
+        </ul>
+    </main>
+
+
+
+</div>
+<script src = "js/menuLateral.js"> </script>
+<script src="js/horas.js"> </script>
+</body>
+</html>

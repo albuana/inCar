@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <title>SISTEMA DE SOM / RADIO</title>
+    <link rel="stylesheet" type="text/css" href="css/styleRadio.css">
+</head>
+<body>
+
+<div id="app">
+
+	<nav>
+		<button id="musica" class = "quick-icons"><img src="icons/music.png"></button><br>
+		<button id="mapa" class = "quick-icons"><img src="icons/maps.png"></button><br>
+		<button id="chamada" class = "quick-icons"><img src="icons/phone.png"></button><br>
+		<div id="horas">00:00</div>
+		<button id="rede" class = "quick-icons"><img src="icons/rede.png"></button><br>
+		<button id="casa" class = "quick-icons"><img src="icons/home.png"></button><br>
+	</nav>
+
+    <header>
+        <ul>
+            <li><a href="radioMusica.html"><img class="icon" src="icons/radio.png"><br>Radio</a></li>
+            <li><a class="active" href="#"><img class="icon" src="icons/playlist.png"><br>Playlists</a></li>
+            <li><a href="#"><img class="icon" src="icons/artists.png"><br>Artistas</a></li>
+            <li><a href="#"><img class="icon" src="icons/semiColcheia.png"><br>Musicas</a></li>
+            <li><a href="aTocarMusica.html"><img class="icon" src="icons/playButton.svg"><br>A Tocar</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <ul id="clickable">
+            <li><img class="iconInList" src="icons/playButton.svg"><a><button id="PopJoao" type="button">Pop do João</button></a><img class="iconInListFim" src="icons/3p.png"></li>
+            <li><img class="iconInList" src="icons/playButton.svg"><a><button id="ViagensFam" type="button">Viagens em Familia</button><img class="iconInListFim" src="icons/3p.png"></li>
+            <li><img class="iconInList" src="icons/playButton.svg"><a><button id="StonerDoom" type="button">Stoner Doom</button><img class="iconInListFim" src="icons/3p.png"></li>
+            <li><img class="iconInList" src="icons/playButton.svg"><a><button id="PostPunk" type="button">Post Punk</button><img class="iconInListFim" src="icons/3p.png"></li>
+            <li><img class="iconInList" src="icons/playButton.svg"><a><button id="Shoegaze" type="button">Shoegaze</button><img class="iconInListFim" src="icons/3p.png"></li>
+            <li><img class="iconInList" src="icons/playButton.svg"><a><button id="DarkAmbient" type="button">Dark Ambient</button><img class="iconInListFim" src="icons/3p.png"></li>
+              <li><img class="iconInList" src="icons/playButton.svg"><a><button id="HipHop" type="button">Hip Hop</button><img class="iconInListFim" src="icons/3p.png"></li>
+                <li><img class="iconInList" src="icons/playButton.svg"><a><button id="HardRock" type="button">Hard Rock</button><img class="iconInListFim" src="icons/3p.png"></li>
+        </ul>
+    </main>
+
+</div>
+<script src = "js/playlist.js"> </script>
+<script src = "js/menuLateral.js"> </script>
+<script src = "js/horas.js"> </script>
+</body>
+</html>

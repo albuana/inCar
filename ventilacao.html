@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <title>inCar</title>
+    <link rel="stylesheet" type="text/css" href="css/ventilacao.css">
+</head>
+<body>
+    <nav>
+    	<button id="musica" class="quick-icons"><img src="icons/music.png"></button><br>
+    	<button id="mapa" class="quick-icons"><img src="icons/maps.png"></button><br>
+    	<button id="chamada" class="quick-icons"><img src="icons/phone.png"></button><br>
+        <div id="horas">00:00</div>
+    	<button id="rede" class="quick-icons"><img src="icons/rede.png"></button><br>
+    	<button id="casa" class="quick-icons"><img src="icons/home.png"></button><br>
+    </nav>
+
+    <main>
+        <div id=tempLeftSelector>
+            <div class=container>
+                <p>Condutor</p>
+                <img class=back src="icons/term.jpg">
+                <div id="tempLeftUp"><button><img src="icons/plus.png"></button></div>
+                <div id="tempLeft">22.0º</div>
+                <div id="tempLeftDown"><button><img src="icons/minus.png"></button></div>
+            </div>
+        </div>
+
+        <div id=tempRightSelector>
+            <div class=container>
+                <p>Pendura</p>
+                <img class=back src="icons/term.jpg">
+                <div id="tempRightUp"><button><img src="icons/plus.png"></button></div>
+                <div id="tempRight">22.0º</div>
+                <div id="tempRightDown"><button><img src="icons/minus.png"></button></div>
+            </div>
+        </div>
+
+        <div class=onoffContainer>
+            <div><button id="ligar"><p>AC</p><img src="icons/onoff.png"></button></div>
+  
+        </div>
+
+        <div id=ventSelector>
+            <div class=midContainer>
+                <p>Intensidade</p>
+                <img class=back id=ventImg src="icons/vent2.png">
+                <button id="ventDown"></button>
+                <button id="ventUp"></button>
+            </div>
+        </div>
+
+        <div class=optContainer>
+            <button id=b1><img src="icons/ac1.png"></button>
+            <button id=b2><img src="icons/ac2.png"></button>
+            <button id=b3><img src="icons/ac1.png"></button>
+            <button id=b4><img src="icons/ac2.png"></button>
+            <button id=b5><img src="icons/ac1.png"></button>
+        </div>
+    </main>
+    <script src="js/ventilacao.js"> </script>
+    <script src="js/menuLateral.js"> </script>
+    <script src="js/horas.js"> </script>
+</body>
+</html>

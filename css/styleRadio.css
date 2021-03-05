@@ -1,0 +1,132 @@
+#app {
+    display: grid;
+    grid-template-areas: 'nav header'
+                         'nav main';
+    grid-template-rows: 111px auto;
+    grid-template-columns: 150px auto;
+    width: 1120px;
+    height: 790px;
+    margin: 8px auto;
+	 font-weight: bold;
+}
+
+button:focus {
+	outline:0;
+	cursor: pointer;
+}
+
+body {
+    font-family: 'Lucida Grande';
+    color: black;
+}
+
+/*header*/
+header {
+    grid-area: header;
+    background-color: rgb(216,216,216);
+    font-size: 120%;
+}
+
+header ul li {
+    display: inline;
+    width: 20%;
+    height: 120px;
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: black;
+    font-size: 120%;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+header ul li a.active {
+    background-color: rgb(200, 200, 200);
+}
+
+header ul li:hover {
+    background-color:  rgb(210, 210, 210);
+}
+
+.icon {
+  width: 55px;
+  padding: 6px 10px;
+}
+
+
+/*nav*/
+nav {
+    grid-area: nav;
+    background-color: rgb(216,216,216);
+}
+
+.quick-icons img {
+    padding: 10px 20px;
+    display: block;
+    width: 85px;
+    background-color: rgb(216,216,216);
+}
+
+#horas {
+    font-size: 230%;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 30px 0px 20px 5px;
+}
+
+/* header */
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+/* main */
+main {
+    grid-area: main;
+    background-color: rgb(200,200,200);
+    font-size: 200%;
+    overflow-y:scroll;
+    font-weight: bold;
+}
+
+button {
+    display: inline-block;
+    padding: 0px;
+    margin: 15px;
+	background-color: rgb(200,200,200);
+	border: none;
+    font-size: 32px;
+    font-family: 'Lucida Grande';
+}
+
+main ul {
+    list-style-type: none;
+}
+
+main ul li {
+    padding: 25px 0px;
+    width:95%;
+    border-bottom: 1px solid rgb(216,216,216);
+}
+
+main ul li:last-child {
+    border-bottom: none;
+}
+
+.iconInList {
+    width: 40px;
+    padding: 0px 20px 0px 0px;
+}
+
+.iconInListFim {
+    width: 40px;
+    float: right;
+}

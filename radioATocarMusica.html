@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <title>SISTEMA DE SOM / RADIO / PLAY</title>
+    <link rel="stylesheet" type="text/css" href="css/styleRadioATocar.css">
+</head>
+<body>
+	<div id="app">
+	<nav>
+		<button id="musica" class = "quick-icons"><img src="icons/music.png"></button><br>
+		<button id="mapa" class = "quick-icons"><img src="icons/maps.png"></button><br>
+		<button id="chamada" class = "quick-icons"><img src="icons/phone.png"></button><br>
+		<div id="horas">00:00</div>
+		<button id="rede" class = "quick-icons"><img src="icons/rede.png"></button><br>
+		<button id="casa" class = "quick-icons"><img src="icons/home.png"></button><br>
+	</nav>
+	<header>
+		<button id="back"><img src="icons/back.png" width="100" height="100"></button><br>
+	</header>
+	<main>
+		<div class="radioAtual">
+			<img id="rad" src="icons/r1.png" width="300" height="300">
+		</div>
+		<h1 id="nomeRadio"></h1>
+	</main>
+	<footer>
+		<div id="forwardBackward" class="buttons">
+			<button id="backward"><img src="icons/backward.png" width="100" height="100"></button>
+			<button id="onOf"><img src="icons/onOf.png" width="100" height="100"></button>
+			<button id="forward"><img src="icons/forward.png" width="100" height="100"></button>
+		</div>
+	</footer>
+	</div>
+	<script src = "js/radioATocar.js"> </script>
+	<script src = "js/menuLateral.js"> </script>
+	<script src = "js/horas.js"> </script>
+</body>
+</html>
